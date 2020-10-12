@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  NotoSans,Arial,"Arial Unicode MS",sans-serif;
+}
+
+.search-header {
+  // position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  // background: #222;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu-header {
+  // position: relative;
+  top: 100px;
+  left: 0;
+  padding: 0 100px;
+  // background: #222;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-logo img {
+  color:#4a6da7;
+  //  #eceae7;
+  position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(images/siteLogo-jworg-large.svg),none;
+    width: 103px;
+    height: 80px;
+    float: left;
+}
+
+.logo-title {
+  color: #555555;
+    font-weight: 400;
+    margin: 6px 10px;
+    line-height: 1.25;
+}

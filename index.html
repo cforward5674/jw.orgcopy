@@ -4,20 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JW.org</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/d17fe9655e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <div class="search-header">
-        <span class="header-logo"><img src="#" alt="logo"></span>
-        <h2>Jehovah's Witnesses</h2>
-         <ul>
+        <span class="header-logo"><img src="assets/images/siteLogo.png" alt="logo"></span>
+        <h2 class="logo-title">Jehovah's Witnesses</h2>
+        <nav> 
+          <ul>
            <li><a href="#" target= "_blank">English</a></li>
            <li><a href="#" target= "_blank">Log In</a></li>
            <li><a href="#" target= "_blank">Search Bar</a></li>
-         </ul>
+          </ul>
+        </nav>
     </div>
+  </header>
 
+    <div class="menu-toggle"><i class="fas fa-bars" aria-hidden="true"></i></div>
+
+  <header2>
     <div class="menu-header">
+        <nav>
          <ul>
            <li><a href="#" target= "_blank">Home</a></li>
            <li><a href="#" target= "_blank">Bible Teachings</a></li>
@@ -25,90 +35,46 @@
            <li><a href="#" target= "_blank">News Room</a></li>
            <li><a href="#" target= "_blank">About Us</a></li>
          </ul>
+        </nav>
     </div>
-  </header>
-  <a href="https://apps.jw.org/E_DONATE" class="iconLink" target="_blank" rel="noreferrer noopener">
-    <span class="iconLink-icon jwIcon donations" aria-hidden="true"></span>
-    <span class="iconLink-text">Donations</span>
-    <span class="srText">(opens new window)</span>
- </a>
-       <h3>Frequently Asked Questions</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>History &amp; the Bible</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Science &amp; the Bible</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Activities for Children</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Help for Teenagers</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Marriage &amp; Family</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Faith in God</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Peace &amp; Happiness</h3>
-    </div>
- </div>
-    <div class="homeTopicItem--text">
-       <h3>Bible Questions Answered</h3>
-    </div>
- </div>
-<div class="main-div">
-    <div class="inner-div">
-      <hero-section>
-        <hero-div>
+  </header2>
+ 
+
+  <hero-section>
+    <hero-div>
+      <h3>How to Live on Less</h3>
+        <p>Has the COVID-19 pandemic affected your finances?  These practical suggestions can help you to adapt.</p>
+          <button>Find Out</button>
+    </hero-div>
+      <div class="hero-img">Image</div>
+  </hero-section> 
+  
+      <div class="featured">
+        <h2 class="section-heading">Featured</h2>
+        <div>
           <h3>How to Live on Less</h3>
-          <p>Has the COVID-19 pandemic affected your finances?  These practical suggestions can help you to adapt.</p>
-            <button>Find Out</button>
-          </hero-div>
-        <div class="hero-img">Image</div>
-      </hero-section>
-
-    <div class="featured">
-      <h2 class="section-heading">Featured</h2>
-      <div>
-        <h3>Women in the Bible--What Can We Learn From Them?</h3>
+        </div>
+        <div>
+          <h3>Is There a Cure for Prejudice?</h3>
+        </div>
+        <div>
+          <h3>How to Deal With Stress</h3>
+        </div>
       </div>
-      <div>
-        <h3>why Do Jehovah's Witnesses Maintain Political Neutrality?</h3>
-      </div>
-      <div>
-        <h3>Is There a Cure for Prejudice?</h3>
-      </div>
+  
+  <div class="featured1">
+    <div>
+      <h3>Read the Bible Online</h3>
+      <p>This free study edition of the <i>New World Translation</i> includes pictures, footnotes, cross-references, and additional study tools.</p>
     </div>
-
-    <div class="featured1">
-      <div>
-        <h3>Read the Bible Online</h3>
-        <p>This free study edition of the <i>New World Translation</i> includes pictures, footnotes, cross-references, and additional study tools.</p>
-      </div>
-      <div>
-        <h3>See recently added videos, music, articles, and news.</h3>
-        <button href="#">See What's New ></button>
-      </div>
+    <div>
+      <h3>See recently added videos, music, articles, and news.</h3>
+      <button href="#">See What's New ></button>
     </div>
+  </div>
 
-    <div class="topic">
-      <h2 class="section-heading">Select A Topic That Interests You</h2>
-    </div>
-
-      <div class="topic-grid">
-        <div class="topic-image">
-          <a href=""><img src="img" alt="image of">
+        <div class="topic">
+          <h2 class="section-heading">Select A Topic That Interests You</h2>
         </div>
         <div class="topic-text">
           <h4>Bible Questions Answered</a></h4>
@@ -171,7 +137,7 @@
         </div>
       </div>
 
-      <div class="call-to-action">
+    <div class="call-to-action">
         <div class="call-to-action-grid">
           <div class="call-to-action-image">
             <img src="img" alt="image of">
@@ -205,7 +171,12 @@
 
     <div class="video">
       <h2 class="section-heading">Videos</h2>
-      <span>background Image</span>
+      <button>See All</button>
+      <div>
+        <h2>Johny and Gideon: Once Enemies, Now Brothers</h2>
+          <p>In some areas, racial hatred is an inexcapbable part of everyday life.<br>
+          See how two men in South Africa overcame this.</p>
+      </div>
       <div class="designed">
         <p>WAS IT DESIGNED?</p>
         <h3><a href="">The Shark's Skin</a></h3>
@@ -217,17 +188,17 @@
     <div class="video-section">
         <div class="video-image">
           <a href="#"><img src="img" alt="video image">
-          <h3>I got Fed Up With My Lifestyle</h3></a>
+          <h3>Pray Anytime</h3></a>
         </div>
 
         <div class="video-image">
           <a href="#"><img src="img" alt="video image">
-            <h3>What Young People Say About Sexual Harassment</h3></a>
+            <h3>From Prison to Prosperity</h3></a>
         </div>
 
         <div class="video-image">
           <a href="#"><img src="img" alt="video image">
-            <h3>Working with Jehovah's Witnesses</h3></a>
+            <h3>Was the Universe Created</h3></a>
         </div>
       </div>
 
@@ -258,7 +229,7 @@
       </footer>
   </div>
 </div>
-
+<img src="https://assetsnffrgf-a.akamaihd.net/assets/ct/d116474251/images/siteLogo-jworg-print-rtl.png" alt="">
 </body>
 </html>
 
