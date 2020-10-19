@@ -185,6 +185,12 @@ body {
   border: none;
 }
 
+img {
+  height: 10%;
+  width: 80%;
+  margin: 0px 50px;
+}
+
 body {
   margin: 0;
   padding: 0;
