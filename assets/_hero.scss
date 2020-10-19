@@ -6,10 +6,16 @@
   border: none;
  }
 
- 
-
- img {
-   height: 10%;
-   width: 80%;
-   margin: 0px 50px;
+ .hero {
+  height: 50vh;
+  width: 100%;
+  background-image: url("./images/homepage-header-image.jpg");
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  color: #333;
+  font-family: Arial,"Arial Unicode MS",sans-serif;
+  //  background: linear-gradient(to right, rgba(247,247,247,0.9), rgba(247,247,247,0) 75%);
  }

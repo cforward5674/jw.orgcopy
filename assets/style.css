@@ -185,16 +185,31 @@ body {
   border: none;
 }
 
-img {
-  height: 10%;
-  width: 80%;
-  margin: 0px 50px;
+.hero {
+  height: 50vh;
+  width: 100%;
+  background-image: url("./images/homepage-header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #333;
+  font-family: Arial,"Arial Unicode MS",sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: Arial,"Arial Unicode MS",sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header-logo img {
@@ -212,7 +227,7 @@ body {
   color: #555555;
   font-weight: 400;
   margin: 6px 20px;
-  padding-left: 20px;
+  padding-left: 60px;
   line-height: 1.25;
   display: inline-block;
 }
