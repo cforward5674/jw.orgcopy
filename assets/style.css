@@ -188,7 +188,8 @@ body {
 .hero {
   height: 50vh;
   width: 100%;
-  background-image: url("./images/homepage-header-image.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(247, 247, 247, 0.9)), color-stop(75%, rgba(247, 247, 247, 0))), url("./images/homepage-header-image.jpg");
+  background: linear-gradient(to right, rgba(247, 247, 247, 0.9), rgba(247, 247, 247, 0) 75%), url("./images/homepage-header-image.jpg");
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -202,6 +203,37 @@ body {
           justify-content: left;
   color: #333;
   font-family: Arial,"Arial Unicode MS",sans-serif;
+}
+
+.featured {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  background-color: red;
+}
+
+.featured, img {
+  height: 100px;
+}
+
+.featured2, .featured3, .featured4 {
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+.read {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  -ms-grid-columns: 45% 45%;
+      grid-template-columns: 45% 45%;
+  background-color: blue;
 }
 
 body {
