@@ -259,8 +259,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-auto-rows: 1fr; */
-  grid-gap: 3em;
-  margin-left: 20em;
+  grid-gap: 1.5em;
+  margin: 0 2em 0 2em;
   grid-template-areas: "read read1";
   }
 
@@ -278,11 +278,12 @@ body {
   flex-direction: column ;
   width: auto;
   margin: 40px;
+  border-right:  #4a6da7 2px solid;
 }
 
 .read-b h3  {
   padding: .5em;
-  margin-top: -45px;
+  margin: 0px 80px 0px 0px;
   color: #4a6da7;
   font-size: 2em;
   font-family: Arial,"Arial Unicode MS",sans-serif;
@@ -290,7 +291,8 @@ body {
 
 .read-b p  {
   margin: 0px 100px 0px 0px;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  color: #858585;
   padding: .5em;
   font-family: Arial,"Arial Unicode MS",sans-serif;
 }
@@ -306,12 +308,52 @@ body {
 } */
 
 .read1  {
+  margin: 20px 50px 40px 10px;
+  padding-right: 3em;
+}
+
+.read1 h3 {
   grid-area: read1;
- 
+  color: #858585;
+  font-family: Arial,"Arial Unicode MS",sans-serif;
+  display: block;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-weight: 700;
 }
   
+.read1 #whatsnew  {
+  font-family: Arial,"Arial Unicode MS",sans-serif;
+  font-size: 1.5em;
+  color: white;
+  background-color: #4a6da7;
+  margin: 0px 40px 40px 0px;
+  margin-right: 10px;
+  padding: 10px;
+  border:#555555 1px solid;
+}
 
+/* Select A Topic Section */
+.topic-text  {
+  margin-left: 100px;
+  
+}
 
+.section-heading  {
+  font-family: Arial,"Arial Unicode MS",sans-serif;
+  color: #292929;
+  margin-top: 40px;
+  padding-top: 10px;
+  font-size: 2.3em;
+  line-height: 1.5em;
+  border-top:#858585 solid 2px;
+}
+
+.topic  {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 
 
 
